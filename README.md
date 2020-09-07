@@ -1,5 +1,2 @@
-# SamuraiApp
 
-
-
-<h1> Hello world :wave:<h1/>
+#Hello world :wave:
