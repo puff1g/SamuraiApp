@@ -6,7 +6,7 @@ using System.Linq;
 namespace ConsoleApp1
 {
     internal class Program
-    {
+    { //FUCKING BITCH
         private static SamuraiContext context = new SamuraiContext();
         static void Main(string[] args)
         {
