@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SamuraiApp.domain"
   ],
+  "SelectedNode": "\\SamuraiApp.domain\\SamuraiApp.domain.csproj",
   "PreviewInSolutionExplorer": false
 }
