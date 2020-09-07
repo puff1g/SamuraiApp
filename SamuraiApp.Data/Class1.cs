@@ -1,9 +1,8 @@
 ﻿using System;
 
-namespace SamuraiApp.Domain
+namespace SamuraiApp.Data
 {
     public class Class1
     {
-        //Hrello 
     }
 }
