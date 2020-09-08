@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SamuraiApp.domain"
+    "\\ConsoleApp",
+    "\\SamuraiApp.Data",
+    "\\SamuraiApp.Domain"
   ],
-  "SelectedNode": "\\SamuraiApp.domain",
   "PreviewInSolutionExplorer": false
 }

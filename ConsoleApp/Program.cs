@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using SamuraiApp.Data;
 using SamuraiApp.Domain;
 using System.Linq;
