@@ -4,9 +4,9 @@ using System.Text;
 
 namespace SamuraiApp.Domain
 {
-    class Battle
+    public class Battle
     {
-
+        
         public List<SamuraiBattle> SamuraiBattles { get; set; }
         public int Id { get; set; }
         public string Name { get; set; }

@@ -1,13 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using SamuraiApp.Data;
 using SamuraiApp.Domain;
 using System.Linq;
-
+using Microsoft.EntityFrameworkCore;
 namespace ConsoleApp1
 {
-    internal class Program
-    { //FUCKING BITCH
+   internal class Program
+    {
         private static SamuraiContext context = new SamuraiContext();
         static void Main(string[] args)
         {
@@ -24,12 +23,12 @@ namespace ConsoleApp1
             context.Samurais.Add(samurai);
             context.SaveChanges();
         }
-
+        
         private static void GetSamurais(string text)
         {
             var samurais = context.Samurais.ToList();
             Console.WriteLine($"{text}: Samurai count is {samurais.Count}");
-            foreach (var samurai in samurais)
+            foreach(var samurai in samurais)
             {
                 Console.WriteLine(samurai.Name);
             }
