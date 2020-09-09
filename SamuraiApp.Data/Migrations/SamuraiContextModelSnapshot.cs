@@ -73,7 +73,7 @@ namespace SamuraiApp.Data.Migrations
                     b.HasIndex("SamuraiId")
                         .IsUnique();
 
-                    b.ToTable("Horses");
+                    b.ToTable("Horse");
                 });
 
             modelBuilder.Entity("SamuraiApp.Domain.Quote", b =>
@@ -103,7 +103,7 @@ namespace SamuraiApp.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("ClanId")
+                    b.Property<int?>("ClansId")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -111,7 +111,7 @@ namespace SamuraiApp.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ClanId");
+                    b.HasIndex("ClansId");
 
                     b.ToTable("Samurais");
                 });
@@ -134,7 +134,7 @@ namespace SamuraiApp.Data.Migrations
             modelBuilder.Entity("SamuraiApp.Domain.Horse", b =>
                 {
                     b.HasOne("SamuraiApp.Domain.Samurai", null)
-                        .WithOne("Horse")
+                        .WithOne("Horses")
                         .HasForeignKey("SamuraiApp.Domain.Horse", "SamuraiId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -151,9 +151,9 @@ namespace SamuraiApp.Data.Migrations
 
             modelBuilder.Entity("SamuraiApp.Domain.Samurai", b =>
                 {
-                    b.HasOne("SamuraiApp.Domain.Clan", "Clan")
+                    b.HasOne("SamuraiApp.Domain.Clan", "Clans")
                         .WithMany()
-                        .HasForeignKey("ClanId");
+                        .HasForeignKey("ClansId");
                 });
 
             modelBuilder.Entity("SamuraiApp.Domain.SamuraiBattle", b =>
