@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fST+V0cHHYUuT7QZQSjJ03Bz7pUhRfLtyAHlEhpoZbiBEw+8ftrD9Xz0K0wwHRnxl4UqAc0DYFwmXqAloCXQ4w==",
+  "dgSpecHash": "WDE8sftOhHxd22vUVSmPzyuZ+xniPdPxcmUDLzTONU1TK6uejY54V/rzIUqNPOmwead4734nLaxw/xDphs/ZgA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\Test\\Test.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\tke20\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.7\\microsoft.entityframeworkcore.3.1.7.nupkg.sha512",
     "C:\\Users\\tke20\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.7\\microsoft.entityframeworkcore.abstractions.3.1.7.nupkg.sha512",
     "C:\\Users\\tke20\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.7\\microsoft.entityframeworkcore.analyzers.3.1.7.nupkg.sha512",
+    "C:\\Users\\tke20\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.7\\microsoft.entityframeworkcore.inmemory.3.1.7.nupkg.sha512",
     "C:\\Users\\tke20\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.7\\microsoft.entityframeworkcore.relational.3.1.7.nupkg.sha512",
     "C:\\Users\\tke20\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.7\\microsoft.entityframeworkcore.sqlserver.3.1.7.nupkg.sha512",
     "C:\\Users\\tke20\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.7\\microsoft.extensions.caching.abstractions.3.1.7.nupkg.sha512",

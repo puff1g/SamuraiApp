@@ -8,13 +8,17 @@
     ".NETCoreApp,Version=v3.1": {
       "Test/1.0.0": {
         "dependencies": {
+          "ConsoleApp": "1.0.0",
           "MSTest.TestAdapter": "2.1.2",
           "MSTest.TestFramework": "2.1.2",
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.7",
           "Microsoft.EntityFrameworkCore.Relational": "3.1.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
           "Microsoft.Extensions.Logging": "3.1.7",
           "Microsoft.Extensions.Logging.Console": "3.1.7",
           "Microsoft.NET.Test.Sdk": "16.7.1",
+          "SamuraiApp.Data": "1.0.0",
+          "SamuraiApp.Domain": "1.0.0",
           "coverlet.collector": "1.3.0"
         },
         "runtime": {
@@ -109,6 +113,17 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/3.1.7": {},
+      "Microsoft.EntityFrameworkCore.InMemory/3.1.7": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.720.37109"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/3.1.7": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.7"
@@ -1684,6 +1699,38 @@
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
         }
+      },
+      "ConsoleApp/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
+          "SamuraiApp.Data": "1.0.0",
+          "SamuraiApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApp.dll": {}
+        }
+      },
+      "SamuraiApp.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
+          "SamuraiApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SamuraiApp.Data.dll": {}
+        }
+      },
+      "SamuraiApp.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
+          "Microsoft.Extensions.Logging": "3.1.7",
+          "Microsoft.Extensions.Logging.Console": "3.1.7"
+        },
+        "runtime": {
+          "SamuraiApp.Domain.dll": {}
+        }
       }
     }
   },
@@ -1755,6 +1802,13 @@
       "sha512": "sha512-zSh3QF/Kz8fdVgyStQ1HYUGFDRqFbUR1UBpfa8tUuB0OutYab9R4aYdjkD8i9w9P5VZyHXqQNglh2cQHBFLtjg==",
       "path": "microsoft.entityframeworkcore.analyzers/3.1.7",
       "hashPath": "microsoft.entityframeworkcore.analyzers.3.1.7.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tzNo8eJVLq6NkJ5+pd2EEqtEM5tS1GQpd0btZtIOoGyJwCivv2MgT2eQEAbmyfcCAwnizxZnCAQaEeef6+uWDw==",
+      "path": "microsoft.entityframeworkcore.inmemory/3.1.7",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.3.1.7.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/3.1.7": {
       "type": "package",
@@ -2693,6 +2747,21 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SamuraiApp.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SamuraiApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

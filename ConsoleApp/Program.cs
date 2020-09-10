@@ -4,6 +4,7 @@ using SamuraiApp.Domain;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using ConsoleApp;
 
 namespace ConsoleAppg
 {
@@ -43,13 +44,16 @@ namespace ConsoleAppg
         }
         private static void InsertMultipleSamurais()
         {
-            var samurai = new Samurai { Name = "Sampson" };
+            /* var samurai = new Samurai { Name = "Sampson" };
             var samurai2 = new Samurai { Name = "Tasha" };
             var samurai3 = new Samurai { Name = "Yasuo" };
-            var samurai4 = new Samurai { Name = "Yone" };
-            _context.Samurais.AddRange(samurai, samurai2, samurai3, samurai4);
+            var samurai4 = new Samurai { Name = "Yone" }; */
+            // _context.Samurais.AddRange(samurai, samurai2, samurai3, samurai4);
+            // _context.SaveChanges();
+            var _bizdata = new BusinessDataLogic();
+            var samuraiNames = new string[] { "Sanpson", "Tasha", "Yasuo", "Yone" };
+            var NewSamuraiCreated = _bizdata.AddMultipleSamurais(samuraiNames);
 
-            _context.SaveChanges();
         }
         private static void InsertVariousType()
         {

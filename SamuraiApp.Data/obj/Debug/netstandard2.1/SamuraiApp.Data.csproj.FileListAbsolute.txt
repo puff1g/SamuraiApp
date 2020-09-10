@@ -9,3 +9,15 @@ C:\Users\Tec\Documents\skole'\samuraiapp\SamuraiApp.Data\bin\Debug\netstandard2.
 C:\Users\Tec\Documents\skole'\samuraiapp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.csproj.CopyComplete
 C:\Users\Tec\Documents\skole'\samuraiapp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.dll
 C:\Users\Tec\Documents\skole'\samuraiapp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.pdb
+C:\Users\tke20\Documents\Skole\SamuraiApp\SamuraiApp.Data\bin\Debug\netstandard2.1\SamuraiApp.Data.deps.json
+C:\Users\tke20\Documents\Skole\SamuraiApp\SamuraiApp.Data\bin\Debug\netstandard2.1\SamuraiApp.Data.dll
+C:\Users\tke20\Documents\Skole\SamuraiApp\SamuraiApp.Data\bin\Debug\netstandard2.1\SamuraiApp.Data.pdb
+C:\Users\tke20\Documents\Skole\SamuraiApp\SamuraiApp.Data\bin\Debug\netstandard2.1\SamuraiApp.Domain.dll
+C:\Users\tke20\Documents\Skole\SamuraiApp\SamuraiApp.Data\bin\Debug\netstandard2.1\SamuraiApp.Domain.pdb
+C:\Users\tke20\Documents\Skole\SamuraiApp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.csprojAssemblyReference.cache
+C:\Users\tke20\Documents\Skole\SamuraiApp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.AssemblyInfoInputs.cache
+C:\Users\tke20\Documents\Skole\SamuraiApp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.AssemblyInfo.cs
+C:\Users\tke20\Documents\Skole\SamuraiApp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\tke20\Documents\Skole\SamuraiApp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.csproj.CopyComplete
+C:\Users\tke20\Documents\Skole\SamuraiApp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.dll
+C:\Users\tke20\Documents\Skole\SamuraiApp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.pdb

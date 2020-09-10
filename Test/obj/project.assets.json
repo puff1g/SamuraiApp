@@ -117,6 +117,18 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/3.1.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/3.1.7": {
         "type": "package",
         "dependencies": {
@@ -2446,6 +2458,53 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ConsoleApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
+          "SamuraiApp.Data": "1.0.0",
+          "SamuraiApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ConsoleApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleApp.dll": {}
+        }
+      },
+      "SamuraiApp.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
+          "SamuraiApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SamuraiApp.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SamuraiApp.Data.dll": {}
+        }
+      },
+      "SamuraiApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
+          "Microsoft.Extensions.Logging": "3.1.7",
+          "Microsoft.Extensions.Logging.Console": "3.1.7"
+        },
+        "compile": {
+          "bin/placeholder/SamuraiApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SamuraiApp.Domain.dll": {}
+        }
       }
     }
   },
@@ -2728,6 +2787,20 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.3.1.7.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/3.1.7": {
+      "sha512": "tzNo8eJVLq6NkJ5+pd2EEqtEM5tS1GQpd0btZtIOoGyJwCivv2MgT2eQEAbmyfcCAwnizxZnCAQaEeef6+uWDw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/3.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.3.1.7.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/3.1.7": {
@@ -8152,17 +8225,36 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "ConsoleApp/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleApp/ConsoleApp.csproj",
+      "msbuildProject": "../ConsoleApp/ConsoleApp.csproj"
+    },
+    "SamuraiApp.Data/1.0.0": {
+      "type": "project",
+      "path": "../SamuraiApp.Data/SamuraiApp.Data.csproj",
+      "msbuildProject": "../SamuraiApp.Data/SamuraiApp.Data.csproj"
+    },
+    "SamuraiApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SamuraiApp.Domain/SamuraiApp.Domain.csproj",
+      "msbuildProject": "../SamuraiApp.Domain/SamuraiApp.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "ConsoleApp >= 1.0.0",
       "MSTest.TestAdapter >= 2.1.2",
       "MSTest.TestFramework >= 2.1.2",
+      "Microsoft.EntityFrameworkCore.InMemory >= 3.1.7",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.7",
       "Microsoft.Extensions.Logging >= 3.1.7",
       "Microsoft.Extensions.Logging.Console >= 3.1.7",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
+      "SamuraiApp.Data >= 1.0.0",
+      "SamuraiApp.Domain >= 1.0.0",
       "coverlet.collector >= 1.3.0"
     ]
   },
@@ -8191,7 +8283,17 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\ConsoleApp\\ConsoleApp.csproj": {
+              "projectPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\ConsoleApp\\ConsoleApp.csproj"
+            },
+            "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj": {
+              "projectPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj"
+            },
+            "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -8210,6 +8312,10 @@
           "MSTest.TestFramework": {
             "target": "Package",
             "version": "[2.1.2, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[3.1.7, )"
           },
           "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
