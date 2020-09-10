@@ -8167,19 +8167,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tec\\.nuget\\packages\\": {}
+    "C:\\Users\\tke20\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\Tec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\Test\\obj\\",
+      "projectPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\tke20\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tke20\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8253,7 +8253,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

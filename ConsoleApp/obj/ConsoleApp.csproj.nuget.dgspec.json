@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\ConsoleApp\\ConsoleApp.csproj": {}
+    "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\ConsoleApp\\ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\Tec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\ConsoleApp\\obj\\",
+        "projectPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\ConsoleApp\\ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\tke20\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tke20\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Data\\SamuraiApp.Data.csproj": {
-                "projectPath": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Data\\SamuraiApp.Data.csproj"
+              "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj": {
+                "projectPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj"
               },
-              "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj"
+              "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj"
               }
             }
           }
@@ -75,21 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Data\\SamuraiApp.Data.csproj": {
+    "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Data\\SamuraiApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj",
         "projectName": "SamuraiApp.Data",
-        "projectPath": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Data\\SamuraiApp.Data.csproj",
-        "packagesPath": "C:\\Users\\Tec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Data\\obj\\",
+        "projectPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj",
+        "packagesPath": "C:\\Users\\tke20\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tke20\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,8 +102,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj"
+              "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj"
               }
             }
           }
@@ -141,21 +141,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj": {
+    "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
         "projectName": "SamuraiApp.Domain",
-        "projectPath": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\Tec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tec\\Documents\\skole'\\samuraiapp\\SamuraiApp.Domain\\obj\\",
+        "projectPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\tke20\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tke20\\Documents\\Skole\\SamuraiApp\\SamuraiApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tke20\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -212,7 +212,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

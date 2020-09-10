@@ -9,6 +9,7 @@ namespace ConsoleAppg
 {
     public class Program
     {
+
         private static SamuraiContext _context = new SamuraiContext();
         static void Main(string[] args)
         {
